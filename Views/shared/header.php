@@ -146,7 +146,7 @@ const MostrarCarrito = () =>{
 }
 
 const DeleteCarritoProducto = (IdProducto,Index) =>{
-        debugger;
+        
         let data = [];
         let ProductsLocalStorage = localStorage.getItem("oProducts");
         if(ProductsLocalStorage)       
