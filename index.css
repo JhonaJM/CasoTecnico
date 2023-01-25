@@ -1,0 +1,28 @@
+.Verticalseparator{
+    display: inline-block;
+    align-self: stretch;
+    width: 1px;
+    min-height: 1em;
+    background-color: #fff;
+    /* opacity: .25 */
+}
+
+.btnIconsRounded{     
+    padding: 10px;  
+    background: #525252 ;    
+    border-radius: 50%;
+}
+
+
+.activo{
+  border-bottom: white 2px solid;
+}
+
+.footer{
+    
+    position: absolute;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 10000;
+}
